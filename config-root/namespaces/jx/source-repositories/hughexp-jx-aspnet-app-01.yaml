@@ -10,13 +10,13 @@ metadata:
   name: hughexp-jx-aspnet-app-01
   namespace: jx
 spec:
-  httpCloneURL: https://github.com/hughexp/jx-aspnet-app--01.git
+  httpCloneURL: https://github.com/hughexp/jx-aspnet-app-01.git
   org: hughexp
   provider: https://github.com
   providerKind: github
   providerName: github
-  repo: jx-aspnet-app--01
+  repo: jx-aspnet-app-01
   scheduler:
     kind: ""
     name: in-repo
-  url: https://github.com/hughexp/jx-aspnet-app--01
+  url: https://github.com/hughexp/jx-aspnet-app-01

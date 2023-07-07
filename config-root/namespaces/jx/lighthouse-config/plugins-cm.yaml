@@ -8,7 +8,7 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
-      - hughexp/jx-aspnet-app--01
+      - hughexp/jx-aspnet-app-01
       require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
@@ -20,7 +20,7 @@ data:
         env/prow/plugins.yaml:
           name: plugins
     external_plugins:
-      hughexp/jx-aspnet-app--01:
+      hughexp/jx-aspnet-app-01:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
@@ -35,7 +35,7 @@ data:
       additional_labels: null
     owners: {}
     plugins:
-      hughexp/jx-aspnet-app--01:
+      hughexp/jx-aspnet-app-01:
       - approve
       - assign
       - help
@@ -77,7 +77,7 @@ data:
       - hughexp/jx3-minikube_home
       trusted_org: hughexp
     - repos:
-      - hughexp/jx-aspnet-app--01
+      - hughexp/jx-aspnet-app-01
       trusted_org: hughexp
     welcome:
     - message_template: Welcome

@@ -134,3 +134,5 @@
     repositoryUrl: https://cdfoundation.github.io/tekton-helm-chart
     resourcePath: config-root/namespaces/tekton-pipelines/tekton-pipeline
     version: 0.5.0
+- namespace: jx-staging
+  path: helmfiles/jx-staging/helmfile.yaml

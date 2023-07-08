@@ -5,7 +5,7 @@ repositories:
   url: http://bucketrepo-jx.192.168.49.2.nip.io
 releases:
 - chart: dev/jx-aspnet-app-01
-  version: 0.0.1
+  version: 0.0.2
   name: jx-aspnet-app-01
 templates: {}
 renderedvalues: {}
